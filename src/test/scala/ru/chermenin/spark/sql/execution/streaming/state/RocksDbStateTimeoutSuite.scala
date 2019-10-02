@@ -30,10 +30,6 @@ import ru.chermenin.spark.sql.execution.streaming.state.RocksDbStateStoreProvide
 
 import scala.util.Random
 
-/**
-  * @author Chitral Verma
-  * @since 10/30/18
-  */
 class RocksDbStateTimeoutSuite extends FunSuite with BeforeAndAfter {
 
   import RocksDbStateStoreHelper._
